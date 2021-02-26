@@ -1,0 +1,204 @@
+@charset 'utf-8';
+@import url('common.css');
+
+header{
+	background: white;
+	position: relative;
+	
+}
+header > div{
+    width:70%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding:10px
+
+	
+}
+header > div h2{
+    width:100px;
+	margin: 10px 13px 0 0;
+	font-size: 0;
+
+}
+header div nav{
+	margin-right: auto;
+}
+header div nav ul {
+	display: flex;
+	justify-content: space-between;
+	
+}
+header div ul li{
+	margin-left:30px;
+}
+header div nav ul li a{
+	text-decoration: none;
+	color:black;
+	font-family:none;
+}
+header .col-md-3 img{
+	width:20px;
+	margin-left:10px;
+}
+.content{position: relative;
+	margin: 0 auto;
+	display: block;}
+
+.content img{width:100%
+	
+}
+
+.content .contents .text h4{
+	color:white;
+	left:300px;top:350px;
+	position: absolute;
+	font-family: montserrat-bold;
+	font-size:2.5em;
+}
+.content .contents .text span{
+	color: white;
+	position: absolute;
+	left: 300px;top:420px;
+	font-family: notosan;
+	font-size:20px;
+}
+.content .contents .text a{
+	color: white;
+	background: black;
+	position: absolute;
+	padding:5px 15px;
+	left: 300px;top:470px;
+}
+
+
+.content .arrow a:nth-of-type(1){
+	position: absolute;
+	color: white;
+	top: 30%;
+	right:95%;
+	
+}
+
+.content .arrow a:nth-of-type(2){
+	position: absolute;
+	color:white;
+	top: 30%;
+	right:3%;
+}
+
+.content .ellipse{
+	position: absolute;
+	bottom:510px;
+	left:45%;
+	
+
+}
+
+.content .ellipse a{
+	color:rgba(255, 255, 255, 0.6);
+	border-radius:10px;
+	width:13px; height:13px;
+	display:inline-block;
+	background: rgba(255, 255, 255, 0.6);
+	margin: 0 5px;
+}
+
+.content .review h2{
+	text-align: center;
+	margin-top: 70px;
+	font-family: ;
+	font-size: 2em;
+}
+.content .review span{
+	text-align: center;
+	display: block;
+}
+.content .review a{
+	text-align: center;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 5.5px;
+}	
+.content .review div{
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.content .review figure img{
+	width:300px;
+	height:300px;
+
+	
+}
+.content .review figure{
+	position: relative;
+	margin: 0 5px;
+	overflow: hidden;
+	text-align: center;
+}
+.content .review figure span{
+	position: absolute;
+	color: white;
+	
+}
+.content .review figure figcaption{
+	background: white;
+	width:100%;
+	position: absolute;left:0;bottom: 0;
+	transform: translateY(100%);
+	transition: .5s;
+}
+.content .review figure:hover figcaption{
+	transform: translateY(0%);
+	
+}
+footer{
+	background: whitesmoke;
+	margin:100px 0 0 0;
+	text-align: center;
+	
+
+}
+footer .col-md-4{
+	margin: 0 auto;
+}
+
+footer .col-md-4 a img{
+	width: 30px;
+	margin-top: 30px;
+	margin-left: 40px;
+	margin-bottom: 30px;
+	
+}
+footer .footercontent{
+	text-align: center;
+}
+footer .footercontent ul{
+	display: flex;
+	justify-content: center;
+}
+footer .footercontent ul li ::after{
+	content: '|';
+	display:inline-block;
+    padding:0 20px;
+}
+footer .footercontent2{
+	text-align: center;
+}
+footer .footercontent2 a{
+	margin-left: 500px;
+	margin-top:1px;
+	display:block;
+	
+}
+
+
+	
+	
+	
+	
+	
